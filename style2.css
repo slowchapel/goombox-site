@@ -1,0 +1,42 @@
+body {
+  background-image: url(ghost.jpg);
+  background-size: 9in;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  font-family: monospace;
+}
+
+h2 {
+  color: rgb(241, 234, 136);
+  text-align: center;
+  font-style: normal;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+p:hover {
+  color: rgb(228, 175, 175);
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+
+p {
+  color: rgb(223, 162, 162);
+  font-family: monospace;
+  font-size: 13px;
+  margin: 15px 40px 65px 90px;
+  letter-spacing: 5px;
+}
+
+li {
+  inset-block: rgb(230, 172, 181);
+  color: rgb(186, 214, 164);
+  text-align: right;
+  list-style: none;
+  font-size: 11px;
+  font-family: monospace;
+  cursor: crosshair;
+}

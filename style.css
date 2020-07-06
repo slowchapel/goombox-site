@@ -1,0 +1,68 @@
+
+body {
+  background: url(ghost.jpg) rgb(194, 238, 194);
+  background-size: cover;
+  enable-background: 7in;
+  background-attachment: scroll;
+  cursor: crosshair;
+}
+
+h2 {
+  color: rgb(241, 234, 136);
+  text-align: center;
+  font-style: normal;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+p:hover {
+  color: rgb(182, 255, 140);
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+p {
+  color: rgb(223, 162, 162);
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    border: thistle;
+    background-image: url(goombox.jpg) lightpink;
+  }
+
+
+li {
+  inset-block: rgb(230, 172, 181);
+  color: rgb(186, 214, 164);
+  text-align: right;
+  list-style: none;
+  font-size: 11px;
+  font-family: monospace;
+  cursor: crosshair;
+}
+
+ul.joeWorks {
+    color: wheat;
+}
+
+.a:link a:visited {
+    inset-block: rgb(230, 172, 181);
+    color: rgb(223, 12, 12);
+    text-align: end;
+
+}
+
+.a:hover {
+ inset-block: rgb(230, 172, 181);
+  color: rgb(153, 188, 253);
+  text-align: end;
+}
+
